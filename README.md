@@ -26,9 +26,20 @@ A key component of this analysis was the integration of in-situ meteorological r
 ## 📊 Key Findings
 *   **Managed Systems (Horn Island):** Showed a clear, positive, and lagged correlation between rainfall and dam levels, peaking during the 2020–2022 La Niña.
 *   **Natural Systems (Badu Island):** Broadly aligned with seasonal patterns, but MNDWI performance was limited by persistent cloud cover and shallow, vegetated water bodies.
+*   ### 📊 Visualising the Relationship
+Below is the dual-axis time-series plot showcasing the lagged correlation between monthly rainfall and surface water extent at the Horn Island Dam.
+
+![Horn Island Rainfall-Water Correlation](water_rainfall_horn_island.png)
+
+*Figure 1: Comparison of Horn Island monthly rainfall (mm) and surface water area (km²) derived from MNDWI analysis.*
 
 ## 🚀 Further Research
 This baseline analysis highlights the potential for integrating **Explainable AI (XAI)** to improve cloud-masking and automated detection in tropical island settings.
 
+## ⚖️ Academic Integrity & Data Credits
+*   **Satellite Data:** Geoscience Australia Sentinel-2 ARD (Collection 3).
+*   **Meteorological Data:** Bureau of Meteorology (Station 027058).
+*   **Analysis:** All Python code and data aggregation were performed by Jessica Burrows as part of the UNE GISC331 curriculum.
+*   **Policy:** This project complies with the **UNE Academic Integrity Policy**.
 ---
 *Data Sources: Geoscience Australia (Sentinel-2), Bureau of Meteorology (Rainfall).*
